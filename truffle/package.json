@@ -1,0 +1,56 @@
+{
+  "name": "lens-truffle-box",
+  "version": "1.0.0",
+  "description": "Composable and decentralized social graph",
+  "scripts": {
+    "test": "truffle test",
+    "deploy-local": "truffle migrate --skip-dry-run",
+    "deploy-mumbai": "truffle migrate --skip-dry-run --network mumbai",
+    "deploy-dashboard": "truffle migrate --skip-dry-run --network dashboard",
+    "ganache:goerli": "ganache --fork goerli",
+    "ganache:mainnet": "ganache --fork mainnet",
+    "compile": "truffle compile",
+    "console:dashboard": "truffle console --network dashboard",
+    "verify": "truffle run verify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emilyjlin95/lens-box"
+  },
+  "bugs": {
+    "url": "https://github.com/aave/lens-protocol/issues"
+  },
+  "homepage": "https://github.com/aave/lens-protocol#readme",
+  "devDependencies": {
+    "dotenv": "10.0.0",
+    "ethers": "5.5.1",
+    "truffle-plugin-verify": "^0.6.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.1",
+    "@truffle/hdwallet-provider": "^2.1.5"
+  },
+  "author": "Lens + Emily",
+  "contributors": [
+    "Emily Lin (_emjlin)",
+    "Peter Michael (Zer0dot)",
+    "Miguel Martinez",
+    "Lasse Herskind",
+    "Steven Valeri",
+    "Alan Donoso Naumczuk",
+    "Emilio Frangella",
+    "David Racero"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "lens",
+    "protocol",
+    "aave",
+    "social",
+    "graph",
+    "solidity",
+    "evm",
+    "contracts",
+    "core"
+  ]
+}

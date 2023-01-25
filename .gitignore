@@ -1,3 +1,10 @@
 .env
-build
+cache
+artifacts
 node_modules
+build/
+.vscode
+.idea
+/.VSCodeCounter/
+
+addresses.json

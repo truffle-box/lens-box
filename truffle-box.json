@@ -1,6 +1,8 @@
 {
   "ignore": [
-    "README.md"
+    "box-img-lg.png",
+    "box-img-sm.png",
+    "audit"
   ],
   "commands": {
     "Compile contracts": "truffle compile",
